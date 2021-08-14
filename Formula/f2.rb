@@ -2,9 +2,9 @@ class F2 < Formula
   desc "CLI tool for batch renaming files and directories"
   homepage "https://github.com/ayoisaiah/f2/"
   url "https://github.com/ayoisaiah/f2/archive/refs/tags/v1.7.1.tar.gz"
-  head "https://github.com/ayoisaiah/f2.git"
   sha256 "a59be93e6c5dcfc2b2536fd5b04d526d254cbe193ea9d34e645d8941034b2c1b"
   license "MIT"
+  head "https://github.com/ayoisaiah/f2.git"
 
   depends_on "go" => :build
 
