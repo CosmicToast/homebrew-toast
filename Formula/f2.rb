@@ -9,7 +9,7 @@ class F2 < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: '-s -w'), "./cmd/f2"
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/f2"
   end
 
   test do
