@@ -6,6 +6,12 @@ class F2 < Formula
   license "MIT"
   head "https://github.com/ayoisaiah/f2.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/CosmicToast/homebrew-toast/releases/download/f2-1.7.1"
+    sha256 cellar: :any_skip_relocation, catalina:     "da0eee77c9c817df07edbce5d9f944f830f04dec528d0ffc5890723697bb9d93"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "f79747fd01f50e470767a2428d7bc955d2c36e776ec50e3e38be177705728bed"
+  end
+
   depends_on "go" => :build
 
   def install
