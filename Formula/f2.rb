@@ -1,5 +1,5 @@
 class F2 < Formula
-  desc "CLI tool for batch renaming files and directories."
+  desc "CLI tool for batch renaming files and directories"
   homepage "https://github.com/ayoisaiah/f2/"
   url "https://github.com/ayoisaiah/f2/archive/refs/tags/v1.7.1.tar.gz"
   head "https://github.com/ayoisaiah/f2.git"
