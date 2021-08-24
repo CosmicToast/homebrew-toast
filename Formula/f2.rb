@@ -7,9 +7,9 @@ class F2 < Formula
   head "https://github.com/ayoisaiah/f2.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/CosmicToast/homebrew-toast/releases/download/f2-1.7.1"
-    sha256 cellar: :any_skip_relocation, catalina:     "da0eee77c9c817df07edbce5d9f944f830f04dec528d0ffc5890723697bb9d93"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f79747fd01f50e470767a2428d7bc955d2c36e776ec50e3e38be177705728bed"
+    root_url "https://github.com/CosmicToast/homebrew-toast/releases/download/f2-1.7.2"
+    sha256 cellar: :any_skip_relocation, catalina:     "e1065fd538180b6984b67ca49257181c3282787e713c8bd12be60c396093d8ce"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "99136a77d01f1681e86235d630392db823de254e219ecb69488ce7339be538e4"
   end
 
   depends_on "go" => :build
